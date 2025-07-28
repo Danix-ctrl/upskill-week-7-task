@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Mr ChopsKitchen</title>
+</head>
+<body>
+   <div class="container">
+    <header>
+    <h1> Mr ChopsKitchen </h1>
+    </header>
+
+
+    <div class="menu-and-card">
+
+
+ <div class="menu" id="menu"> 
+ <!-- this is the food menu  -->
+</div>
+
+
+
+<div class="card" id="card">
+    <h1> Selected Meals </h1>
+    
+    <ul id="cart-items"> 
+        list of the food 
+    </ul>
+
+    <p> Total: <span id="total">0</span> </p>
+   <div class="button-container">
+    <button id="submitOrder" onclick="submitOrder()"> Submit orders 
+        <div class="submitLoading" id="submitLoading"> 
+            <!-- here is the loading -->
+        </div>
+    </button> 
+
+
+    <button id="printOrder" onclick="printOrder()"> Print orders
+        <div class="printLoading" id="printLoading"> 
+            <!-- here is the loading -->
+        </div>
+    </button>
+   </div>
+   
+</div>
+
+    </div>
+   </div>  
+
+<script src="main.js"></script>
+   </body>
+</html>
